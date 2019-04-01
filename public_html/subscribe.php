@@ -72,7 +72,8 @@
                             <label><?= __("subscribe.business_type_prompt"); ?></label>
                             <?php
                                 $params=[
-                                    "topic"=>"get_business_types",
+                                    "module"=>"business_types",
+                                    "topic"=>"get_list",
                                 ];
                                 $actividades_res = json_decode($CloureAPI->execute($params));
                                 if($actividades_res!=null){
