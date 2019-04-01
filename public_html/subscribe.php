@@ -44,7 +44,7 @@
                             <?php
                                 $params=[
                                     "module"=>"countries", 
-                                    "topic"=>"get_cloure_list",
+                                    "topic"=>"get_list",
                                     "available"=>1
                                 ];
                                 $paises_res = json_decode($CloureAPI->execute($params));

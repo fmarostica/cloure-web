@@ -55,8 +55,10 @@
     $country_res = json_decode($CloureAPI->execute($params));
     if($country_res!=null){
         $country = $country_res->Response;
-        $country_name = $country->NombreO;
-        $country_id = $country->Id;
+        if($country!=null){
+            $country_name = $country->name_en;
+            $country_id = $country->Id;
+        }
     } else {
         echo "Error returned null";
     }
