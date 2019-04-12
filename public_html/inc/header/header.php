@@ -10,7 +10,7 @@
                 <div class="col-md-6">
                     <div class="header-buttons">
                         <a href="<?php echo "https://panel.".$_SERVER["SERVER_NAME"]; ?>" class="btn"><?= __("web.login_btn");?></a>
-                        <a href="subscribe" class="btn btn-success"><?= __("web.register_btn");?></a>
+                        <!--<a href="subscribe" class="btn btn-success"><?= __("web.register_btn");?></a>-->
                     </div>
                 </div>
             </div>
